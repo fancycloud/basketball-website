@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>NBA Stats Hub</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 text-gray-900 font-sans">
+  <!-- Navbar -->
+  <nav class="bg-blue-900 text-white shadow-lg">
+    <div class="container mx-auto flex justify-between items-center p-4">
+      <h1 class="text-2xl font-bold">🏀 NBA Stats Hub</h1>
+      <ul class="flex space-x-6">
+        <li><a href="#" class="hover:text-yellow-400">Home</a></li>
+        <li><a href="#" class="hover:text-yellow-400">Teams</a></li>
+        <li><a href="#" class="hover:text-yellow-400">Players</a></li>
+        <li><a href="#" class="hover:text-yellow-400">Standings</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="bg-gradient-to-r from-blue-700 to-indigo-800 text-white py-16">
+    <div class="container mx-auto text-center">
+      <h2 class="text-4xl font-extrabold mb-4">Your Source for NBA Statistics</h2>
+      <p class="text-lg text-gray-200">Stay updated with player performance, team standings, and historical data.</p>
+    </div>
+  </section>
+
+  <!-- Player Stats -->
+  <section class="container mx-auto py-12">
+    <h3 class="text-2xl font-bold mb-6 text-center">Top Players (Dummy Data)</h3>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+      <div class="bg-white shadow-md rounded-xl p-6 hover:shadow-lg transition">
+        <h4 class="text-xl font-semibold mb-2">LeBron James</h4>
+        <p class="text-gray-600">Team: Lakers</p>
+        <ul class="mt-4 space-y-1">
+          <li>PPG: 27.3</li>
+          <li>APG: 8.2</li>
+          <li>RPG: 7.9</li>
+        </ul>
+      </div>
+
+      <div class="bg-white shadow-md rounded-xl p-6 hover:shadow-lg transition">
+        <h4 class="text-xl font-semibold mb-2">Stephen Curry</h4>
+        <p class="text-gray-600">Team: Warriors</p>
+        <ul class="mt-4 space-y-1">
+          <li>PPG: 29.1</li>
+          <li>APG: 6.5</li>
+          <li>3PT%: 42.3%</li>
+        </ul>
+      </div>
+
+      <div class="bg-white shadow-md rounded-xl p-6 hover:shadow-lg transition">
+        <h4 class="text-xl font-semibold mb-2">Giannis Antetokounmpo</h4>
+        <p class="text-gray-600">Team: Bucks</p>
+        <ul class="mt-4 space-y-1">
+          <li>PPG: 30.2</li>
+          <li>RPG: 11.5</li>
+          <li>BPG: 1.4</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- Team Standings -->
+  <section class="bg-gray-200 py-12">
+    <div class="container mx-auto">
+      <h3 class="text-2xl font-bold mb-6 text-center">Eastern Conference Standings (Dummy)</h3>
+      <div class="overflow-x-auto">
+        <table class="min-w-full bg-white rounded-xl shadow-md">
+          <thead class="bg-blue-800 text-white">
+            <tr>
+              <th class="py-3 px-4 text-left">Team</th>
+              <th class="py-3 px-4">Wins</th>
+              <th class="py-3 px-4">Losses</th>
+              <th class="py-3 px-4">Win%</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr class="border-b hover:bg-gray-100">
+              <td class="py-3 px-4">Milwaukee Bucks</td>
+              <td class="py-3 px-4">55</td>
+              <td class="py-3 px-4">27</td>
+              <td class="py-3 px-4">.671</td>
+            </tr>
+            <tr class="border-b hover:bg-gray-100">
+              <td class="py-3 px-4">Boston Celtics</td>
+              <td class="py-3 px-4">52</td>
+              <td class="py-3 px-4">30</td>
+              <td class="py-3 px-4">.634</td>
+            </tr>
+            <tr class="border-b hover:bg-gray-100">
+              <td class="py-3 px-4">Miami Heat</td>
+              <td class="py-3 px-4">48</td>
+              <td class="py-3 px-4">34</td>
+              <td class="py-3 px-4">.585</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-blue-900 text-white py-6 mt-12">
+    <div class="container mx-auto text-center">
+      <p>&copy; 2025 NBA Stats Hub. Dummy data used for demo purposes.</p>
+    </div>
+  </footer>
+</body>
+</html>
