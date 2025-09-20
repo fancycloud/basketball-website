@@ -19,8 +19,8 @@ jobs:
         username: ${{ secrets.EC2_USER }}
         key: ${{ secrets.EC2_KEY }}
         script: |
-          APP_DIR=~/tomisin-app
-          SERVICE_NAME=bb-app
+          APP_DIR=~/tomisins-app
+          SERVICE_NAME=nba-app
           REPO_URL=https://github.com/fancycloud/basketball-website.git
           VENV_DIR=$APP_DIR/venv
           
